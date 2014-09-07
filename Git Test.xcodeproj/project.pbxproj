@@ -21,6 +21,7 @@
 		05C9D6BE19BC9613007E3685 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C9D6A019BC9613007E3685 /* UIKit.framework */; };
 		05C9D6C619BC9613007E3685 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05C9D6C419BC9613007E3685 /* InfoPlist.strings */; };
 		05C9D6C819BC9613007E3685 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D6C719BC9613007E3685 /* Git_TestTests.m */; };
+		05C9D6D319BC980B007E3685 /* FIXTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C9D6D219BC980B007E3685 /* FIXTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		05C9D6C319BC9613007E3685 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		05C9D6C519BC9613007E3685 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		05C9D6C719BC9613007E3685 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		05C9D6D119BC980B007E3685 /* FIXTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIXTest.h; sourceTree = "<group>"; };
+		05C9D6D219BC980B007E3685 /* FIXTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIXTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				05C9D6AC19BC9613007E3685 /* FIXAppDelegate.m */,
 				05C9D6AE19BC9613007E3685 /* Main.storyboard */,
 				05C9D6B119BC9613007E3685 /* FIXViewController.h */,
+				05C9D6D119BC980B007E3685 /* FIXTest.h */,
+				05C9D6D219BC980B007E3685 /* FIXTest.m */,
 				05C9D6B219BC9613007E3685 /* FIXViewController.m */,
 				05C9D6B419BC9613007E3685 /* Images.xcassets */,
 				05C9D6A319BC9613007E3685 /* Supporting Files */,
@@ -253,6 +258,7 @@
 				05C9D6B319BC9613007E3685 /* FIXViewController.m in Sources */,
 				05C9D6AD19BC9613007E3685 /* FIXAppDelegate.m in Sources */,
 				05C9D6A919BC9613007E3685 /* main.m in Sources */,
+				05C9D6D319BC980B007E3685 /* FIXTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
